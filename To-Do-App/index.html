@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do-List</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- <scirpt src="./script/script.js"></scirpt> -->
+</head>
+    <div class="container">
+        <div class="Heading">
+            <h1>To-Do-List</h1>
+        </div>
+        <div class="hero">
+            <input type="text"  id="inputfield"/>
+            <button class="btn">Click Here</button>
+            <div class="todoElem">
+            
+            </div>
+        </div>
+    </div>
+    <script>
+let inputEle = document.getElementById('inputfield');
+let clickbtn = document.querySelector('.btn');
+let todolist = document.querySelector('.todoElem');
+
+const addToDO = ()=>{
+    
+    // todoFirst.textContent = inputEle.value
+    let pElem = document.createElement("p");
+    pElem.textContent = inputEle.value;
+    console.log(pElem);
+    todolist.append(pElem);
+    inputEle.value="";
+}
+clickbtn.addEventListener("click",()=>{
+    addToDO();
+});
+todolist.addEventListener("click",(event)=>{
+    console.log(event.target);
+    let currEle = event.target;
+    currEle.remove();
+})
+    </script>
+</body>
+</html>

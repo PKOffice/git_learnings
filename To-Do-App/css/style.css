@@ -1,0 +1,58 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    height: 720px;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+.Heading{
+    height: 100px;
+    width: 100%;
+    color: Orange;
+    
+    /* background-color: red; */
+}
+.Heading > h1{
+    font-size: 50px;
+    padding: 15px;
+    text-align: center;
+}
+.hero{
+    height: 600px;
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.332);
+    margin-top: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-left: 580px;
+    font-size: 26px;
+    text-align: center;
+}
+.hero > input{
+    width: 70%;
+    height: 50px;
+    margin-top: 50px;
+    font-size: 16px;
+    border-radius: 15px;
+}
+.hero > button{
+    height: 50px;
+    width: 100px;
+    background-color: orange;
+    border: 2px solid rgb(248, 224, 8);
+    border-radius: 15px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+.todoElem{
+    margin-top:50px;
+    color: white;
+    height: 30px;
+    width: 100%;
+
+}

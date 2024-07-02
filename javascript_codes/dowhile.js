@@ -11,7 +11,7 @@
 // for(num=1; num<=10;num++){
 //     result += num;
 // }
-// console.log(" addition of 1 to 1o number = "+result);
+// console.log(" addition of 1 to 10 number = "+result);
 
 // var num = 13;
 // var isprime=true;
@@ -73,3 +73,9 @@
 // console.log(a);
 
 // console.log("pk".charAt(0))
+
+var int = [1,2,3,4,5];
+for(let i =0;i<int.length;i++)
+{
+    console.log(int[i]);
+}

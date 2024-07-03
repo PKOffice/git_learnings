@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Table Form</title>
+
+
+	<style type="text/css">	
+		.form th{ width: 50%;
+		}
+
+		.form td{ width: 50%;
+		}
+
+		.form input{
+			width: auto;
+		}
+
+
+
+
+	</style>
+</head>
+<body>
+	<div style="background:black;color:black; border:5px solid #6d6e6d ; padding: 5px;">
+	<form action="save.html" method="get">
+
+
+	<fieldset>
+		<table Class="form" border="1" width="100%" bgcolor="silver">
+			<thead>
+			<tr>
+				<th colspan="2"> Personal Details </th>
+			</tr>
+			</thead>
+			<tr>
+				<th> Name </th>
+				<td> <input type="text" name="pname" placeholder="Enter your Name..."></td>
+			</tr>
+			<tr>
+				<th> E-Mail </th>
+				<td> <input type="email" name="email" placeholder="Enter your E-Mail"></td>
+			</tr>
+			<tr>
+				<th> Mobile No: </th>
+				<td> <input type="number" name="mobile" placeholder="Enter your mobile number"></td>
+			</tr>
+			<tr>
+				<th> Photo </th>
+				<td> <input type="file" name="photo"></td>
+			</tr>
+			<tr>
+				<th> Gender </th>
+				<td> 
+					<input type="radio" name="gender"/>Male
+					<br><input type="radio" name="gender"/>Female
+					<br><input type="radio" name="gender"/>other 
+				</td>
+			</tr>
+			<tr>
+				<th> DOB </th>
+				<td> <input type="date" name="DOB"></td>
+			</tr>
+			<tr>
+				<th> Address </th>
+				<td> <textarea name="address" placeholder="Enter your Address..."></textarea></td>
+			</tr>
+			<tr>
+				<th> State </th>
+				<td> 
+				<select name="state">
+						<option> Choose </option>
+						<option> Maharashtra </option>
+						<option>Gujarat</option>
+						<option>Rajasthan</option>
+				</select>
+				</td>
+			</tr>
+
+			<tr>
+				<td colspan="2">
+					<table Class="form" border="1" width="50%" align="center" bgcolor="silver"> 
+						<tr>
+							<th style="text-align: centre; " colspan="2"> Login Details </th>
+						</tr>
+						<tr>
+							<th> User ID </th>
+							<td> <input type="user" name="UID" placeholder="Enter UID" required></td>
+						</tr>
+						<tr>
+							<th col> Password</th>
+							<td> <input type="Password" name="PWD" placeholder="Enter Password" required></td>
+						</tr>
+
+					</table>
+				</td>
+			</tr>
+
+		<tr>
+			<th colspan="2"> <button><input type="submit"> </button>
+			<br> 
+				<button> <input type="reset">   </button>    
+			</th>
+		</tr>
+		</table>
+	</fieldset>
+</form>
+</div>
+</body>
+</html>

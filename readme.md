@@ -1,4 +1,4 @@
-# hello i am prathmesh
+# Hello i am Prathmesh Kamble
 
 ## All Projects
 
@@ -16,8 +16,8 @@ This project is developed using HTML,CSS and JS. in this section we use DOM mani
 ### Project 3: To-Do-List
 This project is developed to prform to simple curd opperation and to monitoring tasks
 [To-Do-App](https://pktechnic.netlify.app/to-do-app/index.html "Task schedular")
-### License
 ***
+### License
 MIT
 [Season](https://www.facebook.com "fb")
 

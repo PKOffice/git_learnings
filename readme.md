@@ -1,19 +1,23 @@
-# hello it prathmesh
+# hello i am prathmesh
 
-## Install
+## All Projects
 
-this is some installation guide
+### Prject 1: My Portfolio
 
-```bash
-npm install
-```
-## Test
+This project is fully developed in core HTML and Semantic Tags in HTML to ensure SEO friendly 
+[My Portfolio](https://pktechnic.netlify.app/html/portofolio_project/index.html "My Portfolio")
 
-```bash
-npm test
-```
-## License
 
+### Project 2: Bulb Project
+This project is developed using HTML,CSS and JS. in this section we use DOM manipulation to achive perticular task
+[Bulb Project](https://pktechnic.netlify.app/bulb%20project/index.html "DOM Projects")
+
+
+### Project 3: To-Do-List
+This project is developed to prform to simple curd opperation and to monitoring tasks
+[To-Do-App](https://pktechnic.netlify.app/to-do-app/index.html "Task schedular")
+### License
+***
 MIT
 [Season](https://www.facebook.com "fb")
 

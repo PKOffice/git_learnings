@@ -22,11 +22,10 @@ This project is developed to perform to simple curd operation and to monitoring 
 
 ### Project 4: Parallax
 This project full made in HTML CSS.
-[Parallax]()
+[Parallax](https://pktechnic.netlify.app/css/parallax_view/index.html "View Parallax")
 
 ***
 ### License
-MIT
-[Season](https://www.facebook.com "fb")
+Contact Me on  [Twitter](https://x.com/PrathmeshNaray1?mx=2 "Twitter")
 
-![car](https://media.istockphoto.com/id/1214396728/vector/red-car-icon-isolated-on-white-background-clip-art-car-red-cute-illustration-car-flat-simple.jpg?s=1024x1024&w=is&k=20&c=FhN9MOoX36YTV_xfpTO8YuaCw0wG1q7KouTT0MKGu3w=)
+![twitter](https://img.shields.io/twitter/follow/:PrathmeshNaray1)

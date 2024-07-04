@@ -1,21 +1,29 @@
 # Hello i am Prathmesh Kamble
 
-## All Projects
+## HTML+Js Projects
 
-### Prject 1: My Portfolio
+### Project 1: My Portfolio
 
 This project is fully developed in core HTML and Semantic Tags in HTML to ensure SEO friendly 
 [My Portfolio](https://pktechnic.netlify.app/html/portofolio_project/index.html "My Portfolio")
 
 
 ### Project 2: Bulb Project
-This project is developed using HTML,CSS and JS. in this section we use DOM manipulation to achive perticular task
+This project is developed using HTML,CSS and JS. in this section we use DOM manipulation to achieve perticular task
 [Bulb Project](https://pktechnic.netlify.app/bulb%20project/index.html "DOM Projects")
 
 
 ### Project 3: To-Do-List
-This project is developed to prform to simple curd opperation and to monitoring tasks
+This project is developed to perform to simple curd operation and to monitoring tasks
 [To-Do-App](https://pktechnic.netlify.app/to-do-app/index.html "Task schedular")
+
+
+## CSS Projects
+
+### Project 4: Parallax
+This project full made in HTML CSS.
+[Parallax]()
+
 ***
 ### License
 MIT

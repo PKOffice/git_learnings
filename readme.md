@@ -19,7 +19,7 @@ This project is developed to perform to simple curd operation and to monitoring 
 
 ### Project 4: Menu-List
 This project is developed to perform to simple curd operation and to monitoring tasks
-[To-Do-App](https://pktechnic.netlify.app/html/onepage_menulist/index.html "Menu Card")
+[Menu List](https://pktechnic.netlify.app/html/onepage_menulist/index.html "Menu Card")
 
 
 ## CSS Projects

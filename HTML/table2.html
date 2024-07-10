@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Billing Table</title>
+    <style>
+        table,td,th{
+            border: 2px solid black;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+        .t1{
+            background-color: rgb(119, 198, 255);
+            color: black;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <table >
+        <thead>
+        <tr>
+            <th class="t1" colspan="2">Invoice #12345ABC</th>
+            <th class="t1" colspan="2">18 Jul 2019</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td colspan="2">
+                <p><strong>Pay to:</strong><br>
+                    The Tech Park <br>
+                    123 80feet street <br>
+                    Mumbai,Dharavi-400017 <br>
+                </p>
+            </td>
+            <td colspan="2">
+                <p><strong>Customer:</strong><br>
+                    sion koliwada <br>
+                    Dummy argument <br>
+                    Mumbai,Dharavi-400017
+                </p>
+            </td>
+        </tr>
+        <tr style="text-align: center;">
+            <td class="t1">Name/Description</td>
+            <td class="t1">Qty.</td>
+            <td class="t1">MRP</td>
+            <td class="t1">Amount</td>
+        </tr>
+        <tr>
+            <td>Panipuri</td>
+            <td>3</td>
+            <td>60</td>
+            <td>120</td>
+        </tr>
+        <tr>
+            <td>Samosa</td>
+            <td>15</td>
+            <td>20</td>
+            <td>300</td>
+        </tr>
+        <tr>
+            <td colspan="3" class="t1">SubTotal</td>
+            <td>420</td>
+        </tr>
+        <tr>
+            <td colspan="2" class="t1">Tax:</td>
+            <td>10%</td>
+            <td>42</td>
+        </tr>
+        <tr>
+            <td colspan="3" class="t1">Grand Total:</td>
+            <td>Rs. 462</td>
+        </tr>
+    </tbody>
+    </table>
+</body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food list</title>
+    <style>
+        .nav-container {
+            background-color: black;
+            width: 100%;
+            font-size: 18px;
+            display: flex;
+            height: 50px;
+            justify-content: space-evenly;
+        }
+
+        .nav-btn {
+            align-content: center;
+        }
+
+        .nav-btn a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .nav-btn a:hover {
+            color: red;
+        }
+        h1{
+            font-size: 35px;
+            text-align: center;
+            text-shadow: 2px 2px 5px gray ;
+            color: black;
+        }
+        .main-container{
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .card{
+            border: 2px solid black;
+            margin-bottom:5px;
+            height: 400px;
+            width: 600px;
+            /* background-color: blue; */
+        }
+        .card h2{
+            text-align: center;
+            text-decoration: underline;
+        }
+        .card img{
+            height: 250px;
+            width: 250px;
+            box-sizing: border-box;
+            margin-left: 170px;
+        }
+        .card p{
+            padding: 7px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="nav-container">
+            <div class="nav-btn"><a href="./index.html">Home</a></div>
+            <div class="nav-btn"><a href="./food.html">Food</a></div>
+            <div class="nav-btn"><a href="./aboutus.html">About Us</a></div>
+        </nav>
+    </header>
+    <section class="main-container">
+        <h1>MENUS</h1>
+        <section class="vadapav" id="vadapav">
+            <div class="card">
+                <h2>Vadpav</h2>
+                <img src="./assests/images/vada-pav.webp">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto illum consequatur, blanditiis
+                    eligendi fugiat nesciunt corporis ipsa repudiandae? Praesentium nihil cupiditate est dolorem
+                    temporibus illum.</p>
+            </div>
+        </section>
+        <section class="dabeli" id="dabeli">
+            <div class="card">
+                <h2>Dabeli</h2>
+                <img src="./assests/images/Dabeli.webp" />
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto illum consequatur, blanditiis
+                    eligendi fugiat nesciunt corporis ipsa repudiandae? Praesentium nihil cupiditate est dolorem
+                    temporibus illum.</p>
+            </div>
+        </section>
+        <section class="panipuri" id="panipuri">
+            <div class="card">
+                <h2>Panipuri</h2>
+                <img src="./assests/images/panipuri.webp" />
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto illum consequatur, blanditiis
+                    eligendi fugiat nesciunt corporis ipsa repudiandae? Praesentium nihil cupiditate est dolorem
+                    temporibus illum.</p>
+            </div>
+        </section>
+        <section class="dosa" id="dosa">
+            <div class="card">
+                <h2>Dosa</h2>
+                <img src="./assests/images/dosa.webp" />
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto illum consequatur, blanditiis
+                    eligendi fugiat nesciunt corporis ipsa repudiandae? Praesentium nihil cupiditate est dolorem
+                    temporibus illum.</p>
+            </div>
+        </section>
+        <section class="kachori" id="kachori">
+            <div class="card">
+                <h2>kachori</h2>
+                <img src="./assests/images/kachori.webp" />
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto illum consequatur, blanditiis
+                    eligendi fugiat nesciunt corporis ipsa repudiandae? Praesentium nihil cupiditate est dolorem
+                    temporibus illum.</p>
+            </div>
+        </section>
+        <section class="sandwiz" id="sandwiz">
+            <div class="card">
+                <h2>Sandwiz</h2>
+                <img src="./assests/images/sandwiz.webp" />
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto illum consequatur, blanditiis
+                    eligendi fugiat nesciunt corporis ipsa repudiandae? Praesentium nihil cupiditate est dolorem
+                    temporibus illum.</p>
+            </div>
+        </section>
+    </section>
+</body>
+
+</html>

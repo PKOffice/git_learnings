@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>one-page website</title>
+    <style>
+        .nav-container{
+            display: flex;
+            justify-content:space-evenly;
+        }
+        .nav-btn a{
+            text-decoration: none;
+            color: black;
+        }
+        .nav-btn{
+            text-align: center;
+            align-content: center;
+            height: 30px;
+            width: 100px;
+            font-size: 18px;
+            padding: 10px;
+            background-color: skyblue;
+            border-radius: 20px;
+            border: 2px solid rgb(8, 99, 136);
+        }
+        .nav-container :hover{
+            background-color: white;
+            color: red;
+        }
+        .section-1{
+            height: 700px;
+            width: 100%;
+            background-color: green;
+            color: white;
+        }
+        .section-2{
+            height: 700px;
+            width: 100%;
+            background-color: rgb(128, 70, 0);
+            color: white;
+        }
+        .section-3{
+            height: 700px;
+            width: 100%;
+            background-color: rgb(128, 0, 119);
+            color: white;
+        }
+        #Store :active{
+            border: 5px solid black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="nav-container">
+            <div class="nav-btn"><a href="#">Home</a></div>
+            <div class="nav-btn"><a href="#ContactUs">Contact Us</a></div>
+            <div class="nav-btn"><a href="#services">Services</a></div>
+            <div class="nav-btn"><a href="#Stores">Store</a></div>
+        </nav>
+    </header>
+    <section class="main-container">
+        <section class="section-1" id="ContactUs">
+            <h2>Contact Us</h2>
+        </section>
+        <section class="section-2" id="services">
+            <h2>Services</h2>
+        </section>
+        <section class="section-3" id="Stores">
+            <h2>Store</h2>
+        </section>
+    </section>
+</body>
+</html>

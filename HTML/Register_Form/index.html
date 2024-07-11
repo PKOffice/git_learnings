@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        body {
+            background-color: #f2f6ff;
+        }
+
+        form {
+            Border-Color: #ccc;
+            Border-Width: 1px;
+        }
+
+        img {
+            justify-content: space-evenly;
+            Width: 50px;
+            Height: 50px;
+            Padding-Top: 16px;
+            padding-Bottom: 16px;
+            Padding-Left: 32px;
+            padding-Right: 32px;
+        }
+        .card{
+            height: 90vh;
+            width: 600px;
+            background-color:white ;
+            margin:auto auto;
+            box-shadow: 2px 2px 15px black;
+        }
+        .form-container {
+            Padding-Top: 80px;
+            Padding-Bottom: 40px ;
+            Padding-Left: 80px;
+            Padding-Right: 80px;
+        }
+        h1{
+            font-size: 34px;
+            text-align: center;
+        }
+        .btn{
+            margin-left: 40%;
+            margin-top: 100px;
+            Background-Color: #0056ff;
+            Padding-Top: 12px;
+            padding-Bottom:12px;
+            Padding-Left:24px;
+            padding-right: 24px;
+            Font-Size: 18px;
+            Color: white;
+            Border: None;
+        }
+        .field{
+            display: flex;
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-bottom: 1px solid black;
+            margin-bottom: 15px;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <section class="card">
+            <h1>Register</h1>
+            <div class="">
+                <center>
+                <img src="./assets/images/goo.webp" alt="Google icon">
+                <img src="./assets/images/fb.webp" alt="facebook icon">
+                <img src="./assets/images/linkedin.webp" alt="linkedin icon">
+            </center>
+            </div>
+            <div class="form-container">
+                <form action="" method="post">
+                    <input class="field" type="text" name="username" id="username" placeholder="Username">
+                    <input class="field" type="email" name="email" id="email" placeholder="Email">
+                    <input class="field" type="password" name="pass" id="pass" placeholder="Password">
+                    <input class="field" type="password" name="pass" id="pass" placeholder="Confirm Password">
+                    <input type="submit" value="Register" class="btn">
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

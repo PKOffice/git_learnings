@@ -18,7 +18,7 @@ This project is developed to perform to simple curd operation and to monitoring 
 [To-Do-App](https://pktechnic.netlify.app/to-do-app/index.html "Task schedular")
 
 ### Project 4: Menu-List
-This project is developed to perform to simple curd operation and to monitoring tasks
+This is simple menu card where we can directly jumped to the specific link through id
 [Menu List](https://pktechnic.netlify.app/html/onepage_menulist/index.html "Menu Card")
 
 

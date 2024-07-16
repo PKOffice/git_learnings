@@ -1,6 +1,6 @@
 # Hello i am Prathmesh Kamble
 
-## HTML+Js Projects
+## HTML+CSS+JS Projects
 
 ### Project 1: My Portfolio
 
@@ -21,12 +21,13 @@ This project is developed to perform to simple curd operation and to monitoring 
 This is simple menu card where we can directly jumped to the specific link through id
 [Menu List](https://pktechnic.netlify.app/html/onepage_menulist/index.html "Menu Card")
 
-
-## CSS Projects
-
-### Project 4: Parallax
+### Project 5: Parallax
 This project full made in HTML CSS.
 [Parallax](https://pktechnic.netlify.app/css/parallax_view/index.html "View Parallax")
+
+### Project 6: Color Changer Button
+This project full made in HTML CSS Js when u click on color button it will change the background of the color.
+[ColorBtn](https://pktechnic.netlify.app/html/background_btn/index.html "Background color Changer using Button ")
 
 ***
 ### License
